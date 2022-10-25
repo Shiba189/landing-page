@@ -38,6 +38,7 @@ a:hover {
     align-items: center;
     background-color: rgba(0, 0, 0, 0.9);
     text-decoration: none;
+    margin-bottom: 1rem;
 }
 .logo {
     display: flex;
@@ -68,9 +69,9 @@ a:hover {
     background-color: rgba(0, 0, 0, 0.7);
     box-shadow: 0 0 2rem rgb(69, 69, 69);
     border-radius: 1.5rem;
-    width: 85%;
-    height: 100%;
-    margin: 9rem auto 0 auto;
+    width: 80%;
+    height: 90%;
+    margin: 6.5rem auto 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -117,31 +118,64 @@ a:hover {
 }
 .image-hero {
     width: 35vw;
-
 }
-
+.heroimage-title {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+.image-author {
+    text-decoration: underline;
+    margin-top: .3rem;
+}
+.hero-layer {
+    background-color: rgb(0, 0 , 0);
+    margin: 4rem auto 0;
+    text-align: center;
+    font-size: .9rem;
+    width: 10rem;
+    padding: .8rem .4rem ;
+    border-radius: .5rem;
+}
+.hero-layer a {
+    text-decoration: underline;
+}
 /* Image container */
 .img-background {
     background: rgb(1,55,60);
     background: linear-gradient(0deg, rgba(1,55,60,1) 0%, rgba(23,137,152,1) 56%, rgba(45,227,253,1) 100%);
-    margin-top: 8rem;
+    margin-top: 1rem;
     box-shadow: 0 0 2rem rgb(69, 69, 69);
 }
 .image-title {
-    font-size: 3rem;
+    font-size: 2.3rem;
+    font-family: 'Kamishirasawa Sans', sans-serif;
+    letter-spacing: .1rem;
     text-align: center;
     text-shadow: 0 0 2rem rgb(69, 69, 69);
     font-weight: 700;
-    margin: 1.2rem 1rem 2rem;
+    margin: 1rem 1rem 2rem;
+    padding-bottom: .8rem;
 }
 .images-container {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
+.item-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    margin: 0 1.5rem;
+
+}
 .image-content {
-    width: 17.9rem;
-    height: 18rem;
+    width: 12rem;
+    height: 14rem;
+    border: 0.3rem solid white;
+    border-radius: 1.2rem;
+    box-shadow: 0 0.62rem 1.87rem rgb(0, 0, 0);
+    object-fit: cover;
 }
 
 /* Quote container */
