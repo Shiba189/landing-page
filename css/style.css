@@ -1,10 +1,11 @@
-
+/* General */
 body {
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
 }
 
+/* Hero */
 .hero-container {
     background-image: url(../images/background1.png);
 }
@@ -15,3 +16,11 @@ img {
     width: 200px;
     height: 200px;
 }
+
+/* Image container */
+
+/* Quote container */
+
+/* Info container */
+
+/* Footer */
