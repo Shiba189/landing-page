@@ -1,20 +1,46 @@
 /* General */
 body {
     font-family: 'Roboto', sans-serif;
-    display: flex;
-    flex-direction: column;
+    color: rgb(255, 255, 255);
+    margin: 0;
 }
 
 /* Hero */
-.hero-container {
+.hero-background {
     background-image: url(../images/background1.png);
+    background-size: cover;
+    filter: brightness(1.2);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    z-index: -2;
 }
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    display: flex;
+}
+
 .logo-txt {
     font-family: 'Melancholy Serif', sans-serif;
 }
+.hero-container {
+    position: relative;
+}
+.hero {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 85%;
+    height: 100%;
+
+}
 img {
-    width: 200px;
-    height: 200px;
+    width: 12.5rem;
+    height: 12.5rem;
 }
 
 /* Image container */
