@@ -14,7 +14,7 @@ a {
     color: inherit;
 }
 a:hover {
-    text-shadow: 0 0 0.8rem rgb(0, 255, 255);
+    text-shadow: 0 0 0.5rem rgb(0, 255, 255);
 }
 
 /* Header */
@@ -54,7 +54,11 @@ a:hover {
     font-size: 2rem;
     margin-left: 1.2rem;
 }
-
+.right-header a {
+    font-family: 'Izayoi Monospaced', sans-serif;
+    color: rgb(0, 255, 255);
+    margin-right: 1.5rem;
+}
 
 /* Hero */
 .hero-container {
