@@ -1,0 +1,17 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-container {
+    background-image: url(../images/background1.png);
+}
+.logo-txt {
+    font-family: 'Melancholy Serif', sans-serif;
+}
+img {
+    width: 200px;
+    height: 200px;
+}
