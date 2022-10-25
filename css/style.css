@@ -117,14 +117,32 @@ a:hover {
 }
 .image-hero {
     width: 35vw;
-    
-}
-.image-content {
-    width: 9.375rem;
-    height: 9.375rem;
+
 }
 
 /* Image container */
+.img-background {
+    background: rgb(1,55,60);
+    background: linear-gradient(0deg, rgba(1,55,60,1) 0%, rgba(23,137,152,1) 56%, rgba(45,227,253,1) 100%);
+    margin-top: 8rem;
+    box-shadow: 0 0 2rem rgb(69, 69, 69);
+}
+.image-title {
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: 0 0 2rem rgb(69, 69, 69);
+    font-weight: 700;
+    margin: 1.2rem 1rem 2rem;
+}
+.images-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.image-content {
+    width: 17.9rem;
+    height: 18rem;
+}
 
 /* Quote container */
 
