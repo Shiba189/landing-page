@@ -78,6 +78,13 @@ a:hover {
     justify-content: center;
     align-items: center;
 }
+@media (max-width: 62.5rem) {
+    .hero {
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-width: 62.5rem;
+    }
+}
 .left-hero {
     margin: 3rem 2rem 3rem 5rem;
     width: 40vw;
@@ -85,6 +92,13 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+@media (max-width: 62.5rem) {
+    .left-hero {
+        margin: 3rem 0rem;
+        max-width: 70rem;
+        flex-wrap: wrap;
+    }
 }
 .hero-main {
     font-size: 2.2rem;
@@ -110,6 +124,11 @@ a:hover {
     background: rgb(1,55,60);
     background: linear-gradient(0deg, rgba(1,55,60,1) 0%, rgba(23,137,152,1) 56%, rgba(45,227,253,1) 100%);
     font-size: 1.2rem;
+}
+@media (max-width: 62.5rem) {
+    .hero-button {
+        margin-top: 3rem;
+    }
 }
 .right-hero {
     width: 50vw;
@@ -199,7 +218,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5rem 5rem 2.5rem;
+    padding: 5rem auto 5rem;
     background-position: center;
     background-attachment: fixed;
 }
@@ -212,6 +231,9 @@ a:hover {
     }
     .quote-author {
         margin-right: 20rem;
+    }
+    .quote-bg {
+        padding: 5rem 5rem 2.5rem;
     }
 }
 .quote-container {
