@@ -139,6 +139,7 @@ a:hover {
 .hero-layer a {
     text-decoration: underline;
 }
+
 /* Image container */
 .img-background {
     background: rgb(1,55,60);
@@ -167,7 +168,6 @@ a:hover {
     align-items: center;
     flex: 1;
     margin: 0 1.5rem;
-
 }
 .image-content {
     width: 12rem;
@@ -177,9 +177,156 @@ a:hover {
     box-shadow: 0 0.62rem 1.87rem rgb(0, 0, 0);
     object-fit: cover;
 }
+.text {
+    font-family: 'Anime Inept', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.8rem;
+    margin-top: .8rem;                                                
+}
+.imagecont-author {
+    margin-bottom: 2rem;
+    font-size: .9rem;
+}
 
 /* Quote container */
-
+.quote-bg {
+    background-image: url(../images/sana-bg.png);
+    background-size: cover;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 5rem 1.8rem;
+    background-position: center;
+}
+@media (min-width: 62.5rem) {
+    .quote-container {
+        margin: 12rem 50rem .3rem;
+    }
+    .quote {
+        margin: .3rem 20rem;
+    }
+    .quote-author {
+        margin-right: 20rem;
+    }
+}
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 1.5rem 0;
+}
+.quote {
+    font-size: 2.5rem;
+    font-style: italic;
+    text-shadow: 
+    0 0 .5rem rgb(0, 0, 0),
+    0 0 .5rem rgb(0, 0, 0),
+    0 0 .5rem rgb(0, 0, 0);
+    
+}
+.quote-author {
+    margin-left: auto;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-right: 3.5rem;
+    text-shadow: 
+    0 0 .5rem rgb(0, 0, 0),
+    0 0 .5rem rgb(0, 0, 0),
+    0 0 .5rem rgb(0, 0, 0);
+    
+}
+.bgquote-author {
+    font-size: .9rem;
+    text-align: center;
+    background: rgb(0, 0, 0);
+    border-radius: 1.5rem;
+    padding: .4rem;
+    margin-top: 20em;
+}
+.link-author {
+    text-decoration: underline;
+}
+.bgquote-author a:hover {
+    text-shadow: 
+    0 0 0.7rem rgb(176, 38, 255),
+    0 0 0.7rem rgb(176, 38, 255),
+    0 0 0.7rem rgb(176, 38, 255);
+}
 /* Info container */
+.info-background {
+    background: rgb(52,5,79);
+    background: linear-gradient(0deg, rgba(52,5,79,1) 0%, rgba(113,8,173,1) 51%, rgba(176,38,255,1) 100%);
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info-container {
+    background-color: rgb(26, 25, 25);
+    padding: 2.8rem 5rem;
+    border-radius: 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media (max-width: 62.5rem) {
+    .info-background {
+        flex-direction: column;
+    }
+    .info-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2.8rem 0rem;
+
+    } 
+    .left-content {
+        margin-right: 0;
+    }
+    .main-infotext {
+        text-align: center;
+        margin-left: 2.5rem;
+    }
+    .text-info {
+        text-align: center;
+        margin-left: 2.5rem;
+    }
+ 
+}
+.left-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.5rem;
+    margin-right: 3rem;
+}
+.main-infotext {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.text-info {
+    font-size: 1.1rem;
+    inline-size: 38.25rem;
+    overflow-wrap: break-word;
+    margin-top: 0.5rem;
+
+}
+.info-button {
+    font-family: 'Roboto', sans-serif;
+    font-size: .9rem;
+    font-weight: 700;
+    background: rgb(46,1,45);
+    background: linear-gradient(0deg, rgba(46,1,45,1) 5%, rgba(255,0,253,1) 100%);
+    color: rgb(255, 255, 255);
+    margin-left: 2.5rem;
+    padding: .5rem 1.875rem;
+    border: .16rem solid rgb(255, 255, 255);
+    border-radius: .5rem;
+}
+
 
 /* Footer */
