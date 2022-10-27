@@ -197,8 +197,9 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5rem 5rem 1.8rem;
+    padding: 5rem 5rem 2.5rem;
     background-position: center;
+    background-attachment: fixed;
 }
 @media (min-width: 62.5rem) {
     .quote-container {
@@ -328,5 +329,17 @@ a:hover {
     border-radius: .5rem;
 }
 
-
 /* Footer */
+.footer {
+    background-color: rgb(20, 10, 42);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: 0 0 1.2rem rgb(0, 0, 0);
+}
+.footer-info {
+    font-family: 'Izayoi Monospaced', sans-serif;
+    line-height: 1.5rem;
+}
